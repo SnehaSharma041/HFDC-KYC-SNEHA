@@ -2,7 +2,7 @@
 
 A comprehensive *Know Your Customer (KYC)* verification system designed to streamline document verification with intelligent scanning, OCR extraction, and real-time validation. This system addresses common KYC challenges through smart automation and user-friendly interfaces.
 
-## 🎯 Overview
+## Overview
 
 This KYC system tackles the major pain points in traditional verification processes:
 
@@ -14,16 +14,16 @@ This KYC system tackles the major pain points in traditional verification proces
 
 Our solution provides an end-to-end verification platform with smart scanning, automated quality checks, and clear user guidance.
 
-## ✨ Key Features
+## Key Features
 
-### 📄 Smart Document Selection
+### Smart Document Selection
 
 - Clear categorization (ID Proof, Address Proof, DOB Proof)
 - Sample images for each document type
 - Validation to prevent wrong document uploads
 - Support for Aadhaar Card and PAN Card
 
-### 📸 Intelligent Document Scanning
+### Intelligent Document Scanning
 
 - *Smart Scan Tunnel* with guided capture
 - Auto-edge detection for proper framing
@@ -32,7 +32,7 @@ Our solution provides an end-to-end verification platform with smart scanning, a
 - AI-powered clarity scoring
 - Auto-capture when optimal conditions are met
 
-### 📤 Optimized Upload System
+### Optimized Upload System
 
 - Auto-compression without quality loss
 - Format conversion (HEIC → JPG → PDF)
@@ -40,7 +40,7 @@ Our solution provides an end-to-end verification platform with smart scanning, a
 - Duplicate document detection
 - Server-side pre-validation
 
-### 🔍 OCR & Validation
+### OCR & Validation
 
 - Automated text extraction using Tesseract.js
 - Support for Aadhaar UID and PAN number extraction
@@ -48,21 +48,21 @@ Our solution provides an end-to-end verification platform with smart scanning, a
 - Mismatch highlighting
 - User confirmation screens
 
-### 🤳 Selfie Verification
+### Selfie Verification
 
 - Face alignment guides
 - Live capture prompts
 - Auto-brightness and shadow correction
 - Quality validation before submission
 
-### 📊 Status Tracking
+### Status Tracking
 
 - Clear progress timeline: Submitted → Under Review → Approved
 - Detailed rejection reasons
 - Auto-fix suggestions
 - KYC quality score
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -81,7 +81,7 @@ Our solution provides an end-to-end verification platform with smart scanning, a
 - *OCR Engine:* Tesseract.js 6.0.1
 - *CORS:* Enabled for cross-origin requests
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -150,7 +150,7 @@ The frontend will run on http://localhost:3000
 
 ## 📁 Project Structure
 
-
+```
 kyc/
 ├── frontend/              # Next.js application
 │   ├── app/              # App router pages
@@ -173,10 +173,10 @@ kyc/
 ├── promlem.md           # Problem breakdown
 └── wrok.md              # System architecture
 
-
+```
 ## 🔄 System Flow
 
-
+```
 User Login
     ↓
 Document Type Selection
@@ -194,9 +194,9 @@ KYC Submission & Status Tracking
 Backend Processing (MongoDB + Supabase)
     ↓
 Approval/Rejection with Detailed Feedback
+```
 
-
-## 🎨 Features in Detail
+## Features in Detail
 
 ### Smart Scan Technology
 
@@ -220,29 +220,28 @@ Approval/Rejection with Detailed Feedback
 - *Accuracy:* Pre-processing for better recognition
 - *Validation:* Real-time format checking
 
-## 🔐 Security Features
+## Security Features
 
 - Secure document storage in Supabase
 - MongoDB for metadata and audit logs
 - Input validation and sanitization
 - CORS configuration for API security
 
-## 📝 API Endpoints
+## API Endpoints
 
 - POST /api/upload - Upload document
 - POST /api/ocr - Extract text from document
 - POST /api/verify - Submit KYC for verification
 - GET /api/status/:id - Check KYC status
 
-## 🤝 Contributing
+## Contributing
 
-This is a private project. For any questions or issues, please contact the development team.
+This is a private project. For any questions or issues, please contact:
+Name: Sneha Sharma
+Email: [snehasnehasharma0918@gmail.com]
+LinkedIn: [www.linkedin.com/in/sneha-sharma-90012b296]
 
-## 📄 License
-
-Proprietary - All rights reserved
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Tesseract.js for OCR capabilities
 - Supabase for storage solutions
