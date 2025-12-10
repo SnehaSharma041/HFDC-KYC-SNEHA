@@ -176,7 +176,7 @@ kyc/
 ```
 
 
-
+```
 ## 🔄 System Flow
 
 
@@ -197,7 +197,7 @@ KYC Submission & Status Tracking
 Backend Processing (MongoDB + Supabase)
     ↓
 Approval/Rejection with Detailed Feedback
-
+```
 
 ## 🎨 Features in Detail
 
