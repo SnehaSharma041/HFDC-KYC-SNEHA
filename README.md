@@ -175,11 +175,8 @@ kyc/
 └── README.md                     # Main documentation
 ```
 
-
-```
 ## 🔄 System Flow
-
-
+```
 User Login
     ↓
 Document Type Selection
