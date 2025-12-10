@@ -150,28 +150,31 @@ The frontend will run on http://localhost:3000
 
 ## 📁 Project Structure
 
-
+```
 kyc/
-├── frontend/              # Next.js application
-│   ├── app/              # App router pages
-│   ├── components/       # React components
+├── frontend/                     # Next.js application
+│   ├── app/                      # App Router pages
+│   ├── components/               # Reusable React components
 │   │   ├── smart-scan.tsx
 │   │   ├── document-upload.tsx
 │   │   └── ...
-│   ├── lib/              # Utilities and helpers
-│   └── public/           # Static assets
-│       ├── aadhaar.png
-│       └── pan-card.webp
+│   ├── lib/                      # Utilities & helper functions
+│   ├── public/                   # Static assets
+│   │   ├── aadhaar.png
+│   │   └── pan-card.webp
+│   └── package.json
 │
-├── backend/              # Express server
-│   └── src/
-│       ├── index.js      # Server entry point
-│       ├── routes/       # API routes
-│       ├── models/       # MongoDB models
-│       └── controllers/  # Business logic
+├── backend/                      # Express server (Node.js)
+│   ├── src/
+│   │   ├── index.js              # Server entry point
+│   │   ├── routes/               # API routes
+│   │   ├── models/               # MongoDB models
+│   │   └── controllers/          # Business logic handlers
+│   └── package.json
 │
-├── promlem.md           # Problem breakdown
-└── wrok.md              # System architecture
+└── README.md                     # Main documentation
+```
+
 
 
 ## 🔄 System Flow
